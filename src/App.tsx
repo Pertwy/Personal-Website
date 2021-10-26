@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {projects} from "./data"
+import ProjectMap from './components/ProjectMap';
+import ProjectsRowWrapper from './components/ProjectsRowWrapper';
 
 function App() {
   return (
@@ -10,12 +12,18 @@ function App() {
       <section>Profile (View full profile) - Certifications, Work Experience - Blog</section>
       <section>Nav bar - Full stack, Web Dev, Apps, Other Projects</section>
       
-      <section className="project">
-        <p>image</p>
-        <p>title</p>
-        <p>tech</p>
-        <p>description</p>
-        <p>Link</p>
+      <section>
+        <ProjectsRowWrapper title="FullStack">
+          <ProjectMap/>
+        </ProjectsRowWrapper>
+
+        <ProjectsRowWrapper title="Front End">
+          <ProjectMap/>
+        </ProjectsRowWrapper>
+
+        <ProjectsRowWrapper title="Apps">
+          <ProjectMap/>
+        </ProjectsRowWrapper>
       </section>
 
     </div>
