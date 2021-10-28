@@ -18,11 +18,11 @@ function App() {
           <p>Linkedin</p>
         </div> 
         <div className="row">
-          <p>About</p>
-          <p>Portfolio</p> 
-          <p>Contact</p>
+          <p>Portfolio</p>
           <p>Wrok experience</p>
-          <p> personal projects</p>
+          <p>personal projects</p>
+          <p>About</p>
+          <p>Contact</p>
         </div>  
       </nav>
 
@@ -39,6 +39,10 @@ function App() {
         
       </section>
 
+      <h1>Recent Certifications</h1>
+      <p>AWS & MongoDB</p>
+
+      <h1>Portfolio</h1>
 
       <TechMap />
       

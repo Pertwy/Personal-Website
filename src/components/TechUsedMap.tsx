@@ -16,7 +16,10 @@ export default function TechUsedMap({techUsed}:props) {
         Express:"https://images.tute.io/tute/topic/express-js.png",
         Firebase:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx6ShzR6y01Us_9xT42ERipd37I36u7L_J2Q&usqp=CAU",
         RestfulAPIs:"https://jazzteam.org/ru/wp-content/uploads/2016/12/rest-e1481790512763.png",
-        Node:"https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+        Node:"https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
+        Redux:"https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+        Gatsby:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFG-d7sQKmcQHfNsWweXws8_q8_MoYKvXr_0il0dKrHXqrTT1Ji3QWxNGiQx_jWthUzZ0&usqp=CAU",
+        Next:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1280px-Nextjs-logo.svg.png",
     }
 
     return (

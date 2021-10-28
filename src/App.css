@@ -117,7 +117,7 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -125,7 +125,17 @@ p, h1, h2, h3, h4, h5, h6{
 
 
 
+@media (max-width: 768px) {
+  .grid-half, .grid-three-one, .grid-one-one-one
+{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .grid-one-one-one-one{
+    grid-template-columns: 1fr 1fr;
+  }
 
+}
 
 
 
