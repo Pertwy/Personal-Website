@@ -1,11 +1,138 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700");
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;500&display=swap');
+
+body {
+  font-family: 'Hind', sans-serif;
+  font-weight: 300;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+  }
+
+p, h1, h2, h3, h4, h5, h6{
+  margin:0px
 }
+
+.introduction h1{
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  color: #0d0c22;
+  font-weight: 500;
+}
+.introduction p{
+  font-size: 36px;
+  line-height: 42px;
+  margin: 10px 0;
+}
+
+.profile-img{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  opacity: 1;
+  border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.project{
+  margin-bottom: 80px;
+}
+.project-headline{
+  margin: 10px 0;
+  color: #0d0c22;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.project-description{
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Hind' ,sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  color: #5c5b66;
+}
+.project-image{
+  opacity: 1;
+  border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.tech-logo{
+  height:30px
+}
+
+.react-image{
+  background-image: url("https://www.pinclipart.com/picdir/middle/537-5374089_react-js-logo-clipart.png");
+  border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
 
 .row{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
 }
+
+.tech{
+  margin: 10px;
+  border: black 1px solid;
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+.tech:hover{
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+.grid-half{
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.justify-left{
+  justify-content: left;
+  text-align: left;
+}
+
+.App {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -41,3 +168,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
