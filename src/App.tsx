@@ -12,7 +12,19 @@ function App() {
   return (
     <div className="App">
 
-      <nav>Github, Linkedin, About, Portfolio, Contact, Wrok experience, personal projects</nav>
+      <nav className="space-between">
+        <div className="row">
+          <p>Github</p>
+          <p>Linkedin</p>
+        </div> 
+        <div className="row">
+          <p>About</p>
+          <p>Portfolio</p> 
+          <p>Contact</p>
+          <p>Wrok experience</p>
+          <p> personal projects</p>
+        </div>  
+      </nav>
 
       <section className="grid-half">
         <div className="justify-left introduction">

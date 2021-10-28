@@ -14,6 +14,11 @@ p, h1, h2, h3, h4, h5, h6{
   margin:0px
 }
 
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
 .introduction h1{
   font-size: 28px;
   line-height: 28px;
@@ -113,8 +118,8 @@ p, h1, h2, h3, h4, h5, h6{
 
 .App {
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 
