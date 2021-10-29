@@ -40,8 +40,8 @@ export default function ProjectSingle({project}:Project) {
                 <h4 className="project-headline">{project.title}</h4>
                 <TechUsedMap techUsed={project.tech}/>
                 <p className="project-description">{project.description}</p>
-                <p><a href={project.webLink}>WebLink</a></p>
-                <p><a href={project.githubLink}>GitHubLink</a></p>
+                <p><a target="_blank" href={project.webLink}>WebLink</a></p>
+                <p><a target="_blank" href={project.githubLink}>GitHubLink</a></p>
             </div>
 
             <div>

@@ -37,9 +37,27 @@ p, h1, h2, h3, h4, h5, h6{
   transform: scaleX(-1);
   opacity: 1;
   border: 0;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  
+}
+svg:hover{
+  fill: brown;
+}
+svg{
+  height:25px;
+  width:25px;
+  margin-right:5px
+}
+
+.recent-certifications-header{
+  margin-bottom: 15px;
+}
+
+.certification-link{
+  text-decoration: none;
+  color: black;
 }
 
 .project{
@@ -68,10 +86,15 @@ p, h1, h2, h3, h4, h5, h6{
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
+    
 }
 
 .tech-logo{
-  height:30px
+  height:30px;
+  margin-right: 5px;
+}
+.certification{
+  height:90px
 }
 
 .react-image{
@@ -82,13 +105,25 @@ p, h1, h2, h3, h4, h5, h6{
     display: inline-block;
 }
 
-
+section{
+  margin-bottom: 20vh;
+}
+nav{
+  margin-bottom: 20vh;
+  padding-top: 10px;
+}
 
 .row{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   /* justify-content: space-around; */
+}
+.center{
+  align-items: center;
+  text-align: center;
+  margin:auto;
+  align-content: center;
 }
 
 .tech{
@@ -101,6 +136,18 @@ p, h1, h2, h3, h4, h5, h6{
   cursor: pointer;
   background-color: blueviolet;
 }
+.tech-on{
+  margin: 10px;
+  border: black 1px solid;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: blue;
+}
+.tech-on:hover{
+  cursor: pointer;
+  background-color: burlywood;
+}
+
 
 .grid-half{
   display: grid;

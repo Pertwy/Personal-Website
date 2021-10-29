@@ -28,6 +28,14 @@ export const projects:Project[] = [
     },
     {
         image: "https://uploads-ssl.webflow.com/5e8c566954381032f62e178b/5ea3ff7ac07d782eac32f39f_nicole-webflow-project-opt.jpg",
+        title: "Portfolio Site",
+        tech: ["Typescript",  "React"],
+        description:"This was a fully custom website that I designed from scrath in Figma, and then built in webflow. The aim was to have a friendly, yet professional vibe. The site is very fast - with a Google PAgespeed score of 99 for desktop and 92 for mobile",
+        webLink:"https://thebookshelfapp.herokuapp.com/",
+        githubLink:"https://github.com/Pertwy/bookshelf"
+    },
+    {
+        image: "https://uploads-ssl.webflow.com/5e8c566954381032f62e178b/5ea3ff7ac07d782eac32f39f_nicole-webflow-project-opt.jpg",
         title: "Job Board",
         tech: ["React",  "MongoDB", "Express", "RestfulAPIs", "Node"],
         description:"This was a fully custom website that I designed from scrath in Figma, and then built in webflow. The aim was to have a friendly, yet professional vibe. The site is very fast - with a Google PAgespeed score of 99 for desktop and 92 for mobile",
