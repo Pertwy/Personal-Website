@@ -3,8 +3,8 @@ interface Project{
     title: string,
     tech: string[],
     description:string,
-    webLink:string,
-    githubLink:string
+    webLink?:string,
+    githubLink:string,
 }
 
 //tech: ["React", "Firebase", "ReactNative", "Typescript", "HTML_CSS_JS", "MongoDB", "Express", "RestfulAPIs", "Node"],
@@ -34,28 +34,20 @@ export const projects:Project[] = [
         webLink:"https://thebookshelfapp.herokuapp.com/",
         githubLink:"https://github.com/Pertwy/Personal-Website"
     },
-    {
-        image: "https://uploads-ssl.webflow.com/5e8c566954381032f62e178b/5ea3ff7ac07d782eac32f39f_nicole-webflow-project-opt.jpg",
-        title: "Eco Job Board",
-        tech: ["React",  "MongoDB", "Express", "RestfulAPIs", "Node", "Heroku"],
-        description:"This site is a job board designed for people who want to find jobs at companies who have certified eco-friendly credentials. The idea is only hypothetical, but this demo shows how it would work",
-        webLink:"https://thebookshelfapp.herokuapp.com/",
-        githubLink:"https://github.com/Pertwy/bookshelf"
-    },
+    // {
+    //     image: "https://uploads-ssl.webflow.com/5e8c566954381032f62e178b/5ea3ff7ac07d782eac32f39f_nicole-webflow-project-opt.jpg",
+    //     title: "Eco Job Board",
+    //     tech: ["React",  "MongoDB", "Express", "RestfulAPIs", "Node", "Heroku"],
+    //     description:"This site is a job board designed for people who want to find jobs at companies who have certified eco-friendly credentials. The idea is only hypothetical, but this demo shows how it would work",
+    //     webLink:"https://thebookshelfapp.herokuapp.com/",
+    //     githubLink:"https://github.com/Pertwy/bookshelf"
+    // },
     {
         image: "https://uploads-ssl.webflow.com/5e8c566954381032f62e178b/5ea3ff7ac07d782eac32f39f_nicole-webflow-project-opt.jpg",
         title: "Turn design into webpage AVEMA",
         tech: ["React", "RestfulAPIs"],
         description:"This is a React site, created using RESTful APIs to demonstrate that I could take a UI design and recreate it ",
-        webLink:"https://thebookshelfapp.herokuapp.com/",
-        githubLink:"https://github.com/Pertwy/AVAMAETest"
-    },
-    {
-        image: "https://uploads-ssl.webflow.com/5e8c566954381032f62e178b/5ea3ff7ac07d782eac32f39f_nicole-webflow-project-opt.jpg",
-        title: "Turn design into webpage Acre",
-        tech: ["React", "RestfulAPIs"],
-        description:"This is a single page React site created to practice use of RESTful APIs",
-        webLink:"https://thebookshelfapp.herokuapp.com/",
+        // webLink:"https://thebookshelfapp.herokuapp.com/",
         githubLink:"https://github.com/Pertwy/AVAMAETest"
     },
     {
@@ -63,7 +55,7 @@ export const projects:Project[] = [
         title: "Example Tech Site",
         tech: ["HTML_CSS_JS"],
         description:"This was a fully custom website that I designed from scrath in Figma, and then built in webflow. The aim was to have a friendly, yet professional vibe. The site is very fast - with a Google PAgespeed score of 99 for desktop and 92 for mobile",
-        webLink:"https://thebookshelfapp.herokuapp.com/",
+        // webLink:"https://thebookshelfapp.herokuapp.com/",
         githubLink:"https://github.com/Pertwy/AVAMAETest"
     },
     {
@@ -71,15 +63,15 @@ export const projects:Project[] = [
         title: "Gatsby Site",
         tech: ["React", "Gatsby"],
         description:"This was a fully custom website that I designed from scrath in Figma, and then built in webflow. The aim was to have a friendly, yet professional vibe. The site is very fast - with a Google PAgespeed score of 99 for desktop and 92 for mobile",
-        webLink:"https://thebookshelfapp.herokuapp.com/",
-        githubLink:"https://github.com/Pertwy/AVAMAETest"
+        webLink:"https://laughing-aryabhata-d73529.netlify.app/",
+        githubLink:"https://github.com/Pertwy/First-Gatsby"
     },
-    {
-        image: "https://uploads-ssl.webflow.com/5e8c566954381032f62e178b/5ea3ff7ac07d782eac32f39f_nicole-webflow-project-opt.jpg",
-        title: "Next.js site",
-        tech: ["Next", "React"],
-        description:"This was a fully custom website that I designed from scrath in Figma, and then built in webflow. The aim was to have a friendly, yet professional vibe. The site is very fast - with a Google PAgespeed score of 99 for desktop and 92 for mobile",
-        webLink:"https://thebookshelfapp.herokuapp.com/",
-        githubLink:"https://github.com/Pertwy/AVAMAETest"
-    }
+    // {
+    //     image: "https://uploads-ssl.webflow.com/5e8c566954381032f62e178b/5ea3ff7ac07d782eac32f39f_nicole-webflow-project-opt.jpg",
+    //     title: "Next.js site",
+    //     tech: ["Next", "React"],
+    //     description:"This was a fully custom website that I designed from scrath in Figma, and then built in webflow. The aim was to have a friendly, yet professional vibe. The site is very fast - with a Google PAgespeed score of 99 for desktop and 92 for mobile",
+    //     webLink:"https://thebookshelfapp.herokuapp.com/",
+    //     githubLink:"https://github.com/Pertwy/AVAMAETest"
+    // }
 ]

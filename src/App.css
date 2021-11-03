@@ -165,8 +165,7 @@ nav{
 .grid-half{
   display: grid;
   gap: 20px;
-  /* justify-content: center; */
-  /* align-items: center; */
+  grid-gap: 30px;
   height: 100%;
   grid-template-columns: 1fr 1fr;
 }
