@@ -19,6 +19,10 @@ p, h1, h2, h3, h4, h5, h6{
   justify-content: space-between;
 }
 
+.nav p{
+  margin-left: 15px;
+}
+
 .introduction h1{
   font-size: 28px;
   line-height: 28px;
@@ -61,15 +65,21 @@ svg{
 }
 
 .project{
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
-.project-headline{
-  margin: 10px 0;
+.project-headline h4{
+  /* margin: 10px 0; */
   color: #0d0c22;
   font-size: 20px;
   line-height: 32px;
   font-weight: 600;
+  padding-right: 20px;
 }
+.portfolio-link{
+  /* margin-top: 10px; */
+  margin-right: 3px;
+}
+
 .project-description{
   margin-top: 0;
   margin-bottom: 5px;
@@ -152,8 +162,8 @@ nav{
 .grid-half{
   display: grid;
   gap: 20px;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   height: 100%;
   grid-template-columns: 1fr 1fr;
 }

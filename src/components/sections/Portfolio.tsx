@@ -31,7 +31,9 @@ export default function Portfolio() {
             <h1>Portfolio</h1>
             <p>Click to select or deselect technologies</p>
             <TechMap techStack={techStack} addFilter={addFilter} deleteFilter={deleteFilter} filterArray={filterArray}/>
-            <ProjectMap filterArray={filterArray}/>
+            <div className="grid-half">
+                <ProjectMap filterArray={filterArray}/>
+            </div>
         </section>
     )
 }
