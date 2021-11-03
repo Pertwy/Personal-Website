@@ -1,5 +1,5 @@
 import ProjectSingle from './ProjectSingle'
-import {projects} from "../data"
+import {projects} from "../portfolioProjectData"
 import { useEffect, useState } from 'react'
 
 interface Props{
