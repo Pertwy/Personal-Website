@@ -20,6 +20,7 @@ export default function TechUsedMap({techUsed}:props) {
         Redux:"https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
         Gatsby:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFG-d7sQKmcQHfNsWweXws8_q8_MoYKvXr_0il0dKrHXqrTT1Ji3QWxNGiQx_jWthUzZ0&usqp=CAU",
         Next:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1280px-Nextjs-logo.svg.png",
+        Heroku:"https://cdn.iconscout.com/icon/free/png-256/heroku-3628830-3030107.png"
     }
 
     return (

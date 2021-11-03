@@ -13,7 +13,8 @@ export default function Portfolio() {
         "MongoDB",
         "Express",
         "Firebase",
-        "RestfulAPIs"
+        "RestfulAPIs",
+        "Heroku"
     ])
     //tech: ["React", "Firebase", "ReactNative", "Typescript", "HTML_CSS_JS", "MongoDB", "Express", "RestfulAPIs", "Node"],
     const [filterArray, setFilterArray] = useState<string[]>([])
@@ -29,7 +30,6 @@ export default function Portfolio() {
         <section>
             <h1>Portfolio</h1>
             <p>Click to select or deselect technologies</p>
-            <p>issue with items with spaces</p>
             <TechMap techStack={techStack} addFilter={addFilter} deleteFilter={deleteFilter} filterArray={filterArray}/>
             <ProjectMap filterArray={filterArray}/>
         </section>

@@ -1,7 +1,5 @@
 import './App.css';
-import ProjectMap from './components/ProjectMap';
 import Portfolio from './components/sections/Portfolio';
-import TechMap from './components/TechMap';
 
 function App() {
 
@@ -29,7 +27,7 @@ function App() {
       <section className="grid-half">
         <div className="justify-left introduction">
           <h1>Hi, my name is John</h1>
-          <p>I’m a freelance UX/UI Designer with a marketing background specializing in Shopify & Webflow.</p>
+          <p>I’m a Javascript web developer with a background in aerospace engineering.</p>
         </div>
         
         <div>

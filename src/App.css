@@ -43,7 +43,7 @@ p, h1, h2, h3, h4, h5, h6{
   
 }
 svg:hover{
-  fill: brown;
+  fill: rgb(63, 63, 63);
 }
 svg{
   height:25px;
