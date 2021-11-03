@@ -20,7 +20,7 @@ export default function TechMap({techStack, addFilter, filterArray, deleteFilter
 
     return (
       
-        <div className="row">
+        <div className="tech-map row">
             {techStack.map((tech) => {
                 return(
                     <>
