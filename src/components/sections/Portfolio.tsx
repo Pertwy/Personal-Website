@@ -7,14 +7,15 @@ export default function Portfolio() {
 
     const [techStack, setTechStack] = useState<string[]>([
         "React",
-        "React Native",
+        "ReactNative",
         "Typescript",
-        "HTML CSS JS",
+        "HTML_CSS_JS",
         "MongoDB",
         "Express",
         "Firebase",
-        "Restful APIs"
+        "RestfulAPIs"
     ])
+    //tech: ["React", "Firebase", "ReactNative", "Typescript", "HTML_CSS_JS", "MongoDB", "Express", "RestfulAPIs", "Node"],
     const [filterArray, setFilterArray] = useState<string[]>([])
 
     function addFilter(tech:string){

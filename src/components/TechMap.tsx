@@ -24,7 +24,7 @@ export default function TechMap({techStack, addFilter, filterArray, deleteFilter
             {techStack.map((tech) => {
                 return(
                     <>
-                        <div onClick={()=>handleClick(tech)} className={filterArray.includes(tech) ? "tech-on" : "tech"}>{tech}</div>
+                        <div onClick={()=>handleClick(tech)} className={filterArray.includes(tech) ? "tech-on" : "tech"}>{tech === "HTML_CSS_JS" ? "HTML CSS JS" : tech}</div>
                     </>
                 )
             })}
