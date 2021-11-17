@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import drone from "../../images/Drone.jpg"
+import comic from "../../images/comic.jpg"
 
 export default function PersonProjects() {
     
@@ -42,6 +43,20 @@ export default function PersonProjects() {
                 </>
             }
 
+        </div>
+
+        <div>
+            <h1>Perkins' Comics </h1>
+        </div>
+
+        <div className="grid-half">
+            <div>
+                <p>Talk about the project</p>
+                <a href="https://wordpress.com/post/perkinscomics.wordpress.com/32"><p>Link</p></a>
+            </div>
+            <div>
+                <img className="project-image" src={comic} alt="comic"></img>
+            </div>
         </div>
         </>
     )
